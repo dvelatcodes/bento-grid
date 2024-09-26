@@ -124,7 +124,10 @@
     height: 23%;
     width: 90%;
   }
-  .manage h2 {
+  .manage h2,
+  .calender h2,
+  .write h2,
+  .quicker h2 {
     width: unset;
   }
 
@@ -133,12 +136,22 @@
     align-items: unset;
     padding-left: 1.5rem;
   }
-  .schedule img{
+  .schedule img {
     height: 62%;
   }
 
   .calender {
     grid-area: d;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    row-gap: 1.1rem;
+  }
+  .calender img {
+    width: 91%;
+  }
+  p{
+    text-align: center;
+    width: 90%;
   }
 
   .grow {
