@@ -120,6 +120,13 @@
   .manage {
     grid-area: b;
   }
+  .manage img {
+    height: 23%;
+    width: 90%;
+  }
+  .manage h2 {
+    width: unset;
+  }
 
   .schedule {
     grid-area: c;
