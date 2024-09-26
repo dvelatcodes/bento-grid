@@ -35,11 +35,13 @@ body{
     align-items: center;
     row-gap: 2rem;
 }
+h2{
+    font-weight: 500;
+    line-height: 2.3rem;
+}
 .quicker h2{
     width: 66%;
-    line-height: 2.3rem;
     font-size: 2.4rem;
-    font-weight: 500;
 }
 .quicker span{
     color: hsl(256, 67%, 59%);
@@ -83,6 +85,22 @@ h1 {
     background-color: hsl(254, 88%, 90%);
     grid-area: c;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+    /* align-items: center; */
+    row-gap: 2.5rem;
+}
+.calender h2{
+    font-size: 2.4rem;
+}
+p{
+    width: 70%;
+    font-size: 1.2rem;
+}
+.calender img{
+    width: 100%;
 }
 
 .write {
