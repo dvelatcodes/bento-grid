@@ -191,5 +191,17 @@
 
   .write {
     grid-area: h;
+    align-items: unset;
+    padding-left: 1.5rem;
+    row-gap: 1.5rem;
+  }
+  .write img {
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .write {
+    padding: 1.5rem 0 1rem 1.5rem;
   }
 }
