@@ -181,6 +181,12 @@
 
   .quicker {
     grid-area: g;
+    align-items: unset;
+    padding: 1.5rem 0 1rem 1.5rem;
+    row-gap: 1.5rem;
+  }
+  .quicker img {
+    height: 100px;
   }
 
   .write {
