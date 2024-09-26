@@ -52,6 +52,11 @@
     height: 70px;
   }
 
+  .social_media img {
+    width: 200px;
+    height: 40px;
+    margin-top: unset;
+  }
 
   h1 {
     width: unset;
@@ -62,5 +67,75 @@
   .percent h1 {
     font-size: 2rem;
     line-height: 2.1rem;
+  }
+
+  .manage h2,
+  .schedule h2,
+  .grow h2 {
+    width: 80%;
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    height: auto;
+    grid-template-areas:
+      "a"
+      "a"
+      "a"
+      "b"
+      "c"
+      "c"
+      "d"
+      "d"
+      "d"
+      "d"
+      "e"
+      "e"
+      "e"
+      "f"
+      "f"
+      "g"
+      "g"
+      "h"
+      "h"
+      "h";
+  }
+
+  .social_media {
+    grid-area: a;
+  }
+  h1 {
+    width: 51%;
+    font-size: 1.9rem;
+  }
+
+  .manage {
+    grid-area: b;
+  }
+
+  .schedule {
+    grid-area: c;
+  }
+
+  .calender {
+    grid-area: d;
+  }
+
+  .grow {
+    grid-area: e;
+  }
+
+  .percent {
+    grid-area: f;
+  }
+
+  .quicker {
+    grid-area: g;
+  }
+
+  .write {
+    grid-area: h;
   }
 }
