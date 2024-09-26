@@ -1,38 +1,66 @@
 @media screen and (max-width: 1024px) {
-    body{
+  body {
     column-gap: 1rem;
-    }
+  }
 
-    h1 {
-        width: unset;
-        font-size: 2.4rem;
-    }
+  h1 {
+    width: unset;
+    font-size: 2.4rem;
+  }
 
-    .percent h1{
-        font-size: 2.4rem;
-    }
+  .percent h1 {
+    font-size: 2.4rem;
+  }
 
-    p {
-        width: unset;
-    }
+  p {
+    width: unset;
+  }
 
-    .quicker h2, .calender h2, .write h2, .manage h2, .schedule h2, .grow h2{
-        width: 80%;
-        font-size: 1.9rem;
-    }
+  .quicker h2,
+  .calender h2,
+  .write h2,
+  .manage h2,
+  .schedule h2,
+  .grow h2 {
+    width: 80%;
+    font-size: 1.9rem;
+  }
 
-    .quicker img{
-        width: 200px;
-        height: 90px;
-    }
+  .quicker img {
+    width: 200px;
+    height: 90px;
+  }
 
-    .grow h2{
-        width: 40%;
-        font-size: 1.6rem;
-    }
+  .grow h2 {
+    width: 40%;
+    font-size: 1.6rem;
+  }
 
-    .grow img {
-        height: 50%;
-        width: 40%;
-    }
+  .grow img {
+    height: 50%;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    column-gap: 0.6rem;
+  }
+
+  .quicker img {
+    width: 200px;
+    height: 70px;
+  }
+
+
+  h1 {
+    width: unset;
+    font-size: 2rem;
+    line-height: 2.1rem;
+  }
+
+  .percent h1 {
+    font-size: 2rem;
+    line-height: 2.1rem;
+  }
 }
