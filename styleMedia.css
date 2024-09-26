@@ -200,6 +200,13 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .calender h2{
+    width: 90%;
+    font-size: 1.7rem;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .write {
     padding: 1.5rem 0 1rem 1.5rem;
