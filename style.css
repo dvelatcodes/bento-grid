@@ -97,6 +97,7 @@ h1 {
 }
 .calender h2{
     font-size: 2.4rem;
+    width: 85%;
 }
 p{
     width: 70%;
@@ -131,8 +132,7 @@ p{
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 2rem;
+    padding: 2rem 0 0 2rem;
     row-gap: 1.5rem;
     box-shadow: 4px 6px 7px rgba(137, 137, 137, 0.133);
     overflow-x: hidden;
@@ -151,6 +151,19 @@ p{
     grid-area: e;
     border-radius: 1rem;
     box-shadow: 4px 6px 7px rgba(137, 137, 137, 0.133);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    row-gap: 2rem;
+}
+.schedule h2{
+    font-size: 2.3rem;
+    width: 64%;
+}
+.schedule img{
+   height: 50%;
+   width: 80%;
 }
 
 .percent{
@@ -158,6 +171,26 @@ p{
     grid-area: g;
     border-radius: 1rem;
     box-shadow: 4px 6px 7px rgba(137, 137, 137, 0.133);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    align-items: center;
+}
+.percent h1{
+    font-size: 3.5rem;
+    color: black;
+    width: fit-content;
+}
+.percent small{
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+}
+.percent img {
+    margin-top: 0.5rem;
+    height: 70px;
+    width: 80%;
 }
 
 .grow{
@@ -165,11 +198,18 @@ p{
     grid-area: h;
     border-radius: 1rem;
     box-shadow: 4px 6px 7px rgba(137, 137, 137, 0.133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-img{
-    width: 300px;
-    height: 200px;
+.grow h2{
+    font-size: 2.3rem;
+    color: white;
+    width: 30%;
+}
+.grow img {
+    height: 50%;
+    width: 40%;
 }
 
 
