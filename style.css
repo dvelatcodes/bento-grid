@@ -19,8 +19,8 @@ body{
     'f g h h'
     'f g h h'
     ;
-    row-gap: 1rem;
-    column-gap: 1rem;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
     padding: 0.5rem 0.4rem 0  0.4rem;
     font-family: 'DM Sans';
 }
@@ -34,14 +34,15 @@ body{
     justify-content: center;
     align-items: center;
     row-gap: 2rem;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.133);
 }
 h2{
     font-weight: 500;
     line-height: 2.3rem;
+    font-size: 2.4rem;
 }
 .quicker h2{
     width: 66%;
-    font-size: 2.4rem;
 }
 .quicker span{
     color: hsl(256, 67%, 59%);
@@ -60,6 +61,7 @@ h2{
     justify-content: center;
     align-items: center;
     row-gap: 0.5rem;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.133);
 }
 h1 {
     width: 50%;
@@ -89,8 +91,8 @@ h1 {
     flex-direction: column;
     justify-content: center;
     padding-left: 3rem;
-    /* align-items: center; */
     row-gap: 2.5rem;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.133);
 }
 .calender h2{
     font-size: 2.4rem;
@@ -107,6 +109,19 @@ p{
     background-color: hsl(39, 100%, 71%);
     grid-area: f;
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.133);
+}
+.write h2{
+    width: 54%;
+}
+.write img{
+    width: 90%;
+    height: 60%;
 }
 
 .manage{
@@ -119,18 +134,21 @@ p{
     background-color: hsl(39, 100%, 71%);
     grid-area: e;
     border-radius: 1rem;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.133);
 }
 
 .percent{
     background-color: white;
     grid-area: g;
     border-radius: 1rem;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.133);
 }
 
 .grow{
     background-color: hsl(256, 67%, 59%);
     grid-area: h;
     border-radius: 1rem;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.133);
 }
 
 img{
