@@ -12,6 +12,9 @@ The two components in the left column on desktop are placed at the bottom on mob
 
 ## Screenshots
 
+![alt text](design/desktop-design.jpg)
+![alt text](design/mobile-design.jpg)
+
 
 ## Hosted on github domain
 
